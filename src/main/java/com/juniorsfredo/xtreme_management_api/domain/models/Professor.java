@@ -20,6 +20,7 @@ public class Professor extends Pessoa {
     private Long id;
 
     private LocalDate dataContratacao;
+
     private Double salario;
 
     @JsonIgnore

@@ -42,17 +42,17 @@ INSERT INTO tb_exercicio (id, name, qtd_series, min_repeticoes, max_repeticoes) 
 INSERT INTO tb_exercicio (id, name, qtd_series, min_repeticoes, max_repeticoes) VALUES (14, 'Puxada Baixa', 4, 8, 12);
 INSERT INTO tb_exercicio (id, name, qtd_series, min_repeticoes, max_repeticoes) VALUES (15, 'Remada Cavalinho', 4, 8, 12);
 
-INSERT INTO tb_aluno (id, nome, peso, altura, cpf, ativo, data_cadastro, data_nascimento, endereco)
+INSERT INTO tb_aluno (id, nome, peso, altura, cpf, ativo, data_cadastro, data_nascimento, endereco, perfil_img_url)
     VALUES
-        (1, 'Junior', 90, 1.83, '123456', true, CURRENT_DATE, '2003-12-08', 'São Paulo'),
-        (2, 'Maria', 68, 1.65, '234567', true, CURRENT_DATE, '1995-07-15', 'Rio de Janeiro'),
-        (3, 'Carlos', 82, 1.75, '345678', false, CURRENT_DATE, '1988-03-22', 'Belo Horizonte');
+        (1, 'Junior', 90, 1.83, '123456', true, CURRENT_DATE, '2003-12-08', 'São Paulo', 'https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg'),
+        (2, 'Maria', 68, 1.65, '234567', true, CURRENT_DATE, '1995-07-15', 'Rio de Janeiro', 'https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg'),
+        (3, 'Carlos', 82, 1.75, '345678', false, CURRENT_DATE, '1988-03-22', 'Belo Horizonte', 'https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg');
 
-INSERT INTO tb_professor (id, nome, peso, altura, cpf, data_contratacao, data_nascimento, salario, endereco)
+INSERT INTO tb_professor (id, nome, peso, altura, cpf, data_contratacao, data_nascimento, salario, endereco, perfil_img_url)
     VALUES
-        (1, 'Marcos Oliveira', 78.5, 1.75, 123456789, '2019-03-10', '1980-01-15', 4500.00, 'Avenida Paulista, São Paulo'),
-        (2, 'Claudia Mendes', 62.3, 1.65, 234567890, '2021-06-15', '1992-05-20', 3900.00, 'Rua das Flores, Rio de Janeiro'),
-        (3, 'Roberto Silva', 85.0, 1.82, 345678901, '2020-09-05', '1985-10-30', 5000.00, 'Praça da Sé, São Paulo');
+        (1, 'Marcos Oliveira', 78.5, 1.75, 123456789, '2019-03-10', '1980-01-15', 4500.00, 'Avenida Paulista, São Paulo', 'https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg'),
+        (2, 'Claudia Mendes', 62.3, 1.65, 234567890, '2021-06-15', '1992-05-20', 3900.00, 'Rua das Flores, Rio de Janeiro', 'https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg'),
+        (3, 'Roberto Silva', 85.0, 1.82, 345678901, '2020-09-05', '1985-10-30', 5000.00, 'Praça da Sé, São Paulo', 'https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg');
 
 INSERT INTO tb_treino (id, nome, professor_id, aluno_id)
     VALUES

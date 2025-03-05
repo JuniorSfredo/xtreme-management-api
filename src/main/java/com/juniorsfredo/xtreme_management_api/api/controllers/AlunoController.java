@@ -4,8 +4,6 @@ import com.juniorsfredo.xtreme_management_api.api.DTO.aluno.AlunoIdDTO;
 import com.juniorsfredo.xtreme_management_api.api.DTO.aluno.AlunoResponseDTO;
 import com.juniorsfredo.xtreme_management_api.api.DTO.aluno.AlunoUpdateBody;
 import com.juniorsfredo.xtreme_management_api.api.DTO.treino.TreinoResponseDTO;
-import com.juniorsfredo.xtreme_management_api.domain.models.Aluno;
-import com.juniorsfredo.xtreme_management_api.domain.models.Treino;
 import com.juniorsfredo.xtreme_management_api.domain.services.AlunoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

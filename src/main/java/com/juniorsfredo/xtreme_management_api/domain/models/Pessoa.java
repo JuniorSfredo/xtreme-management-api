@@ -23,4 +23,6 @@ public class Pessoa {
     private LocalDate dataNascimento;
 
     private String endereco;
+
+    private String perfilImgUrl;
 }

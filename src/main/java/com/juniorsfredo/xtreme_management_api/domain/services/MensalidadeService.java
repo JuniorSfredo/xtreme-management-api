@@ -3,7 +3,6 @@ package com.juniorsfredo.xtreme_management_api.domain.services;
 import com.juniorsfredo.xtreme_management_api.api.DTO.mensalidade.MensalidadeIdDTO;
 import com.juniorsfredo.xtreme_management_api.api.DTO.mensalidade.MensalidadeResponseDTO;
 import com.juniorsfredo.xtreme_management_api.api.assembler.MensalidadeAssembler;
-import com.juniorsfredo.xtreme_management_api.domain.exceptions.BusinessException;
 import com.juniorsfredo.xtreme_management_api.domain.exceptions.MensalidadeNotFoundException;
 import com.juniorsfredo.xtreme_management_api.domain.exceptions.MensalidadePagaException;
 import com.juniorsfredo.xtreme_management_api.domain.models.Mensalidade;

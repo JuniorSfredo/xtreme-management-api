@@ -58,7 +58,6 @@ public class AlunoService {
 
     private Aluno atualizarDados(Aluno aluno, AlunoUpdateBody novoAluno) {
         BeanUtils.copyProperties(novoAluno, aluno, "id", "treinos", "avaliacoes", "mensalidades");
-        System.out.println(aluno.getId() + " " + aluno.getNome() + " " + aluno.getAtivo());
         return alunoRepository.save(aluno);
     }
 
