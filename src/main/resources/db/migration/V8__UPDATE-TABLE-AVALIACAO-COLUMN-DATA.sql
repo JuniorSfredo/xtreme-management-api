@@ -1,0 +1,1 @@
+ALTER TABLE tb_avaliacao MODIFY data DATETIME not null;

@@ -1,4 +1,4 @@
-package com.juniorsfredo.xtreme_management_api.api.DTO.avaliacao;
+package com.juniorsfredo.xtreme_management_api.api.DTO.avaliacao.response;
 
 import com.juniorsfredo.xtreme_management_api.api.DTO.avaliacao.refs.AlunoRefDTO;
 import com.juniorsfredo.xtreme_management_api.api.DTO.avaliacao.refs.DobraCutaneaRefDTO;
@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
@@ -15,7 +16,9 @@ public class AvaliacaoResponseDTO {
 
     private Long id;
 
-    private LocalDate data;
+    private String status;
+
+    private LocalDateTime data;
 
     private Double peso;
 

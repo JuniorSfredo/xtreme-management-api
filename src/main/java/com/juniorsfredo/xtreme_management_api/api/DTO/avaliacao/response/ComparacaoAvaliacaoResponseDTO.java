@@ -1,4 +1,4 @@
-package com.juniorsfredo.xtreme_management_api.api.DTO.avaliacao;
+package com.juniorsfredo.xtreme_management_api.api.DTO.avaliacao.response;
 
 import lombok.Getter;
 import lombok.Setter;

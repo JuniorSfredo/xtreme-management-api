@@ -64,9 +64,9 @@ INSERT INTO tb_treino_exercicio (exercicio_id, treino_id)
     VALUES
         (1, 1), (2, 1), (3, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1),(4, 2), (5, 2), (6, 2);
 
-INSERT INTO tb_avaliacao (id, percentual_de_gordura, imc, aluno_id, professor_id, observacao, data, peso)
+INSERT INTO tb_avaliacao (id, percentual_de_gordura, imc, aluno_id, professor_id, observacao, data, peso, status)
     VALUES
-        (1, 25.6, 25, 1, 1, 'Obs teste', '2024-12-05', 82.8);
+        (1, 25.6, 25, 1, 1, 'Obs teste', '2024-12-05 15:47:32', 82.8, 'CONCLUIDO');
 
 INSERT INTO tb_dobra_cutanea (id, dobra, mm, avaliacao_id)
     VALUES
@@ -78,9 +78,9 @@ INSERT INTO tb_dobra_cutanea (id, dobra, mm, avaliacao_id)
         (6, 'AXILAR', 8, 1),
         (7, 'QUADRICEPS', 10, 1);
 
-INSERT INTO tb_avaliacao (id, percentual_de_gordura, imc, aluno_id, professor_id, observacao, data, peso)
+INSERT INTO tb_avaliacao (id, percentual_de_gordura, imc, aluno_id, professor_id, observacao, data, peso, status)
 VALUES
-    (2, 22.3, 25, 1, 2, 'Obs teste', '2024-10-05', 85.3);
+    (2, 22.3, 25, 1, 2, 'Obs teste', '2024-10-05 15:47:32', 85.3, 'CONCLUIDO');
 
 INSERT INTO tb_dobra_cutanea (id, dobra, mm, avaliacao_id)
 VALUES

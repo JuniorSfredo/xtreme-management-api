@@ -1,11 +1,12 @@
 package com.juniorsfredo.xtreme_management_api.domain.models;
 
+import com.juniorsfredo.xtreme_management_api.domain.models.enums.StatusAvaliacao;
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +30,10 @@ public class Avaliacao {
 
     private String observacao;
 
-    private LocalDate data;
+    private LocalDateTime data;
+
+    @Enumerated(EnumType.STRING)
+    private StatusAvaliacao status;
 
     @ManyToOne
     @JoinColumn(name = "aluno_id")
